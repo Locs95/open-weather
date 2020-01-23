@@ -1,0 +1,38 @@
+.location-select {
+	&__inner {
+		display: flex;
+		align-items: center;
+		&>div {
+			flex: 1 0;
+			&:first-child {
+				padding: 15px 15px 15px 0;
+			}
+			&:last-child {
+				padding: 15px 0 15px 15px;
+			}
+		}
+	}
+	&__cities-weather {
+		 display: flex;
+		 justify-content: center;
+		 &>img {
+			 margin-top: 100px;
+		 }
+	}
+	&__notfound {
+		margin-top: 100px;
+		font-size: 2rem;
+	}
+	&__preloader {
+		width: 50px;
+	}
+	select {
+		width: 100%;
+		padding: 1.2rem;
+		font-size: 1.3rem;
+		border: 1px solid #cccccc;
+		border-radius: 0.25rem;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	}
+}

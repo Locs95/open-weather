@@ -1,0 +1,49 @@
+.cities-weather {
+	padding: 30px;
+	box-shadow: 0.5px 0.5px 8px rgba(9,9,9,0.5);
+	width: 100%;
+	min-height: 100%;
+	border-radius: .25rem;
+	background: #dddddd;
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		&>div {
+			flex: 1;
+		}
+	}
+	&__block-l {
+		height: auto;
+	}
+	&__block-r {
+		height: auto;
+	}
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		min-height: 100%;
+		h5 {
+			font-size:  1.6rem;
+		}
+	}
+	&__list {
+		border: 1px solid #dddddd;
+		&>div {
+			padding: 10px 10px;
+			border-bottom: 1px solid #dddddd;
+			display: flex;
+			align-items: center;
+			font-size: 1.3rem;
+			&>div {
+				&:first-child {
+					margin-right: 10px;
+					margin-bottom: -5px;
+				}
+			}
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+	}
+}
